@@ -54,29 +54,29 @@ link to the dataset: https://www.kaggle.com/datasets/teejmahal20/airline-passeng
 ### Data Preprocessing
 
 The following steps are performed in the data preprocessing phase:
-    1. In 'Arrival Delay in Minutes' column was 393 values with NaN. These values were replaced with the median of the column.
-    2. Changed 'satifaction' column values from 'neutral or dissatisfied' to 0 and from 'satisfied' to 1.
-    3. 'Gender' column also changed to 0 and 1 for Male and Female respectively.
-    4. 'Customer Type' column changed to 0 and 1 for Loyal Customer and disloyal Customer respectively.
-    5. 'Type of Travel' column changed to 0 and 1 for Personal Travel and Business Travel respectively.
-    6. 'Class' column changed to 0, 1 and 2 for Eco Plus, Business and Eco respectively.
-    7. 'satisfaction' column moved to the last column of the dataset.
+- In 'Arrival Delay in Minutes' column was 393 values with NaN. These values were replaced with the median of the column.
+- Changed 'satifaction' column values from 'neutral or dissatisfied' to 0 and from 'satisfied' to 1.
+- 'Gender' column also changed to 0 and 1 for Male and Female respectively.
+- 'Customer Type' column changed to 0 and 1 for Loyal Customer and disloyal Customer respectively.
+- 'Type of Travel' column changed to 0 and 1 for Personal Travel and Business Travel respectively.
+- 'Class' column changed to 0, 1 and 2 for Eco Plus, Business and Eco respectively.
+- 'satisfaction' column moved to the last column of the dataset.
 
 
 ### Data Visualization
 
 The following plots are used for data visualization:
-    1. Countplot - to show the number of satisfied and dissatisfied passengers by gender, seat comfort, inflight Wi-Fi service,
+- Countplot - to show the number of satisfied and dissatisfied passengers by gender, seat comfort, inflight Wi-Fi service,
             Departure/Arrival time convenient, on-board service, ease of online booking, food and drink, inflight service,
             cleanliness, inflight entertainment, leg room service, baggage handling, checkin service
-    2. Countplot - to show the number of satisfied and dissatisfied passengers by type of travel.
+- Countplot - to show the number of satisfied and dissatisfied passengers by type of travel.
             We can see 69% is Business travellers and they are much more satisfied with the flight than the personal travellers.
-    3. Countplot - to show the number of satisfied and dissatisfied passengers by class of travel.
+- Countplot - to show the number of satisfied and dissatisfied passengers by class of travel.
             Business class travellers make up 47 % of the total and they are the most satisfied. But most of Eco Class travellers are very dissatisfied
-    4. Bar plot - to show the number of satisfied and dissatisfied passengers by average age.
-    5. We have also plotted the correlation matrix to see the correlation between the features. 
+- Bar plot - to show the number of satisfied and dissatisfied passengers by average age.
+- We have also plotted the correlation matrix to see the correlation between the features. 
         From the plots we see that Age and gate location do not affect customer satisfaction so we also drop them.
-    6. In the scatter plot we can see that the most satisfied passengers are those who decide on long distance flights which
+- In the scatter plot we can see that the most satisfied passengers are those who decide on long distance flights which
         are not delayed.
 
 ### Model Building

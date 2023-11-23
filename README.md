@@ -67,16 +67,16 @@ The following steps are performed in the data preprocessing phase:
 
 The following plots are used for data visualization:
 - Countplot - to show the number of satisfied and dissatisfied passengers by gender, seat comfort, inflight Wi-Fi service,
-            Departure/Arrival time convenient, on-board service, ease of online booking, food and drink, inflight service,
+            Departure/Arrival time convenient, on-board service, ease of online booking, food and drink, inflight service,\
             cleanliness, inflight entertainment, leg room service, baggage handling, checkin service
-- Countplot - to show the number of satisfied and dissatisfied passengers by type of travel.
+- Countplot - to show the number of satisfied and dissatisfied passengers by type of travel.\
             We can see 69% is Business travellers and they are much more satisfied with the flight than the personal travellers.
-- Countplot - to show the number of satisfied and dissatisfied passengers by class of travel.
+- Countplot - to show the number of satisfied and dissatisfied passengers by class of travel.\
             Business class travellers make up 47 % of the total and they are the most satisfied. But most of Eco Class travellers are very dissatisfied
-- Bar plot - to show the number of satisfied and dissatisfied passengers by average age.
-- We have also plotted the correlation matrix to see the correlation between the features. 
+- Bar plot - to show the number of satisfied and dissatisfied passengers by average age.\
+- We have also plotted the correlation matrix to see the correlation between the features.\
         From the plots we see that Age and gate location do not affect customer satisfaction so we also drop them.
-- In the scatter plot we can see that the most satisfied passengers are those who decide on long distance flights which
+- In the scatter plot we can see that the most satisfied passengers are those who decide on long distance flights which\
         are not delayed.
 
 ### Model Building
@@ -85,39 +85,39 @@ Before building the models, we use StandardScaler to scale the data.
 
 #### Logistic Regression
 Using Logistic Regression we get the following results:
-    - Accuracy: 0.87384
-    - Precision: 0.87344
-    - Recall: 0.86951
-    - F1 score: 0.87118
+-- Accuracy: 0.87384
+-- Precision: 0.87344
+-- Recall: 0.86951
+-- F1 score: 0.87118
 
 #### K-Nearest Neighbors
 To find the best value for K we use GridSearchCV. The best value for K is 5.
 Using K-Nearest Neighbors we get the following results:
-    - Accuracy: 0.92785
-    - Precision: 0.93137
-    - Recall: 0.92266
-    - F1 score: 0.92602
+-- Accuracy: 0.92785
+-- Precision: 0.93137
+-- Recall: 0.92266
+-- F1 score: 0.92602
 
 #### Decision Tree Classifier
 Using Decision Tree Classifier we get the following results:
-    - Accuracy: 0.94248
-    - Precision: 0.94147
-    - Recall: 0.94166
-    - F1 score: 0.94157
+-- Accuracy: 0.94248
+-- Precision: 0.94147
+-- Recall: 0.94166
+-- F1 score: 0.94157
 
 #### Naive Bayes Classifier
 Using Naive Bayes Classifier we get the following results:
-    - Accuracy: 0.86629
-    - Precision: 0.86635
-    - Recall: 0.861162
-    - F1 score: 0.86325
+-- Accuracy: 0.86629
+-- Precision: 0.86635
+-- Recall: 0.861162
+-- F1 score: 0.86325
 
 #### Neural Network
 Using Neural Network we get the following results:
-    - Accuracy: 0.95357
-    - Precision: 0.95527
-    - Recall: 0.95055
-    - F1 score: 0.95259
+-- Accuracy: 0.95357
+-- Precision: 0.95527
+-- Recall: 0.95055
+-- F1 score: 0.95259
 
 
 ### Conclusion

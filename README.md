@@ -1,4 +1,4 @@
-# airline_passenger_satisfaction
+# Airline passenger satisfaction
 
 ## Project description
 

@@ -85,39 +85,39 @@ Before building the models, we use StandardScaler to scale the data.
 
 #### Logistic Regression
 Using Logistic Regression we get the following results:
--- Accuracy: 0.87384
--- Precision: 0.87344
--- Recall: 0.86951
--- F1 score: 0.87118
+- Accuracy: 0.87384
+- Precision: 0.87344
+- Recall: 0.86951
+- F1 score: 0.87118
 
 #### K-Nearest Neighbors
 To find the best value for K we use GridSearchCV. The best value for K is 5.
 Using K-Nearest Neighbors we get the following results:
--- Accuracy: 0.92785
--- Precision: 0.93137
--- Recall: 0.92266
--- F1 score: 0.92602
+- Accuracy: 0.92785
+- Precision: 0.93137
+- Recall: 0.92266
+- F1 score: 0.92602
 
 #### Decision Tree Classifier
 Using Decision Tree Classifier we get the following results:
--- Accuracy: 0.94248
--- Precision: 0.94147
--- Recall: 0.94166
--- F1 score: 0.94157
+- Accuracy: 0.94248
+- Precision: 0.94147
+- Recall: 0.94166
+- F1 score: 0.94157
 
 #### Naive Bayes Classifier
 Using Naive Bayes Classifier we get the following results:
--- Accuracy: 0.86629
--- Precision: 0.86635
--- Recall: 0.861162
--- F1 score: 0.86325
+- Accuracy: 0.86629
+- Precision: 0.86635
+- Recall: 0.861162
+- F1 score: 0.86325
 
 #### Neural Network
 Using Neural Network we get the following results:
--- Accuracy: 0.95357
--- Precision: 0.95527
--- Recall: 0.95055
--- F1 score: 0.95259
+- Accuracy: 0.95357
+- Precision: 0.95527
+- Recall: 0.95055
+- F1 score: 0.95259
 
 
 ### Conclusion
